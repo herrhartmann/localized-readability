@@ -3,14 +3,14 @@ module.exports = {
     module: "Lesbarkeit",
     score: "Punktzahl",
     interpretations: "Interpretationen",
-    counts: "Counts",
+    counts: "Häufigkeit",
     age: "Alter",
     grade: "Note",
     paragraphs: "Absätze",
     sentences: "Sätze",
-    words: "Wörte",
+    words: "Wörter",
     syllables: "Silben",
-    polysillabicWords: "Polysillabische Wörter",
+    polysillabicWords: "Mehrsilbige Wörter",
     letters: "Buchstaben",
     characters: "Schriftzeichen",
     longwords: "Lange Wörter",
@@ -66,15 +66,15 @@ module.exports = {
     colemanLiau: {
       title: "Coleman-Liau Notenstufe",
       description:
-        "Approximates US grade level, using the average number of sentences, words, and letters."
+        "Nähert sich dem deutschen Standard unter Verwendung der durchschnittlichen Anzahl von Sätzen, Wörtern und Buchstaben."
     },
     smog: {
-      title: "Simple Measure of Gobbledygook",
+      title: "Einfache Messung of Gobbledygook",
       description:
         "Misst die Anzahl an Jahren erfahrener Bildung, die benötigt wird, um den Text zu verstehen, indem die Menge an Sätzen unter Verwendung der Anzahl von Sätzen und mehrsilbigen Wörtern untersucht wird."
     },
     lix: {
-      title: "Lesbarhetsindex",
+      title: "Lesbarkeitsindex",
       description:
         "Die Lesefreundlichkeit basiert auf der Gesamtzahl der Wörter, der Anzahl der Sätze und der Anzahl der langen Wörter (mehr als 6 Zeichen).",
       levels: {
